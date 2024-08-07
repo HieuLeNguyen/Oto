@@ -12,6 +12,7 @@ class SalaryViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+<<<<<<< HEAD
         // Do any additional setup after loading the view.
     }
     
@@ -25,5 +26,8 @@ class SalaryViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+=======
+    }
+>>>>>>> 6cb3d12 (feature: auth with api (login, logout, user))
 
 }

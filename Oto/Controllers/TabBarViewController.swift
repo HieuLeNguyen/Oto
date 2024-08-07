@@ -12,6 +12,7 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+<<<<<<< HEAD
         // Do any additional setup after loading the view.
     }
     
@@ -26,4 +27,14 @@ class TabBarViewController: UITabBarController {
     }
     */
 
+=======
+    }
+
+    func showAlert(_ message: String) {
+        let alert = UIAlertController(title: "Thông báo", message: message, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        present(alert, animated: true, completion: nil)
+    }
+    
+>>>>>>> 6cb3d12 (feature: auth with api (login, logout, user))
 }

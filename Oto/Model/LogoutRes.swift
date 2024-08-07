@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //
 //  LogoutRes.swift
 //  Oto
@@ -6,3 +7,11 @@
 //
 
 import Foundation
+=======
+import Foundation
+
+struct LogoutRes: Codable {
+    let data: [String]?
+    let message: String
+}
+>>>>>>> 6cb3d12 (feature: auth with api (login, logout, user))

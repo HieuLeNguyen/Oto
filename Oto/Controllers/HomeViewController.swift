@@ -8,6 +8,7 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+<<<<<<< HEAD
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,4 +27,14 @@ class HomeViewController: UIViewController {
     }
     */
 
+=======
+    @IBOutlet weak var sldTimeLineCar: UISlider!
+    @IBOutlet weak var subViewTop: UIView!
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        sldTimeLineCar.setThumbImage(UIImage(named: "truck"), for: .normal)
+        sldTimeLineCar.value = 0
+    }
+>>>>>>> 6cb3d12 (feature: auth with api (login, logout, user))
 }

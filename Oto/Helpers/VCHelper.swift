@@ -6,3 +6,7 @@
 //
 
 import Foundation
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6cb3d12 (feature: auth with api (login, logout, user))

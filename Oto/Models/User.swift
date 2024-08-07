@@ -6,3 +6,12 @@
 //
 
 import Foundation
+<<<<<<< HEAD
+=======
+
+//struct User: Decodable {
+//    let id: Int
+//    let name: String
+//    let phone: String
+//}
+>>>>>>> 6cb3d12 (feature: auth with api (login, logout, user))

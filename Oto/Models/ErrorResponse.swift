@@ -6,3 +6,11 @@
 //
 
 import Foundation
+<<<<<<< HEAD
+=======
+
+struct ErrorResponse:  Codable, Error {
+    let message: String
+    let errors: [String: [String]]?
+}
+>>>>>>> 6cb3d12 (feature: auth with api (login, logout, user))

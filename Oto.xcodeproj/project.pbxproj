@@ -7,23 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		003D2D612C5EBA440072A981 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003D2D602C5EBA440072A981 /* NetworkManager.swift */; };
+		003D2D632C5EBA620072A981 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003D2D622C5EBA620072A981 /* APIService.swift */; };
+		003D2D652C5EBABA0072A981 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003D2D642C5EBABA0072A981 /* Constant.swift */; };
+		003D2D682C5EC0620072A981 /* LoginRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003D2D672C5EC0620072A981 /* LoginRes.swift */; };
+		003D2D6A2C5EC2DC0072A981 /* ErrorRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003D2D692C5EC2DC0072A981 /* ErrorRes.swift */; };
+		003D2D6C2C5EC4130072A981 /* UserRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003D2D6B2C5EC4130072A981 /* UserRes.swift */; };
+		003D2D6E2C5EC4DF0072A981 /* LogoutRes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003D2D6D2C5EC4DF0072A981 /* LogoutRes.swift */; };
+		005153132C5118F80049FC32 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005153122C5118F80049FC32 /* HomeViewController.swift */; };
+		005153152C5119AA0049FC32 /* MailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005153142C5119AA0049FC32 /* MailViewController.swift */; };
+		005153172C511A350049FC32 /* SalaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005153162C511A350049FC32 /* SalaryViewController.swift */; };
+		005153192C511A590049FC32 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005153182C511A590049FC32 /* MyViewController.swift */; };
+		0051531B2C511B7E0049FC32 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051531A2C511B7E0049FC32 /* ForgotPasswordViewController.swift */; };
 		008AE2AE2C4ED95A001CE64D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008AE2AD2C4ED95A001CE64D /* AppDelegate.swift */; };
 		008AE2B02C4ED95A001CE64D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008AE2AF2C4ED95A001CE64D /* SceneDelegate.swift */; };
-		008AE2B22C4ED95A001CE64D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008AE2B12C4ED95A001CE64D /* ViewController.swift */; };
+		008AE2B22C4ED95A001CE64D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008AE2B12C4ED95A001CE64D /* LoginViewController.swift */; };
 		008AE2B52C4ED95A001CE64D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 008AE2B42C4ED95A001CE64D /* Base */; };
 		008AE2B72C4ED95B001CE64D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008AE2B62C4ED95B001CE64D /* Assets.xcassets */; };
 		008AE2BA2C4ED95B001CE64D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 008AE2B92C4ED95B001CE64D /* Base */; };
+		00918F342C55F3EF00A70E34 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00918F322C55F3EF00A70E34 /* ProfileTableViewCell.swift */; };
+		00918F352C55F3EF00A70E34 /* ProfileTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00918F332C55F3EF00A70E34 /* ProfileTableViewCell.xib */; };
+		00918F3D2C55F50B00A70E34 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00918F3B2C55F50B00A70E34 /* SettingTableViewCell.swift */; };
+		00918F3E2C55F50B00A70E34 /* SettingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00918F3C2C55F50B00A70E34 /* SettingTableViewCell.xib */; };
+		00918F412C55F52900A70E34 /* LogoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00918F3F2C55F52900A70E34 /* LogoutTableViewCell.swift */; };
+		00918F422C55F52900A70E34 /* LogoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00918F402C55F52900A70E34 /* LogoutTableViewCell.xib */; };
+		00B8B6FE2C55754500167825 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8B6FD2C55754500167825 /* TabBarViewController.swift */; };
+		00CDF5002C5FB27F000937B8 /* VCHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CDF4FF2C5FB27F000937B8 /* VCHelper.swift */; };
+		BE26ADB4070DAFCFE338AA97 /* Pods_Oto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94130269147A43C77C20194 /* Pods_Oto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		003D2D602C5EBA440072A981 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		003D2D622C5EBA620072A981 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		003D2D642C5EBABA0072A981 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		003D2D672C5EC0620072A981 /* LoginRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRes.swift; sourceTree = "<group>"; };
+		003D2D692C5EC2DC0072A981 /* ErrorRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorRes.swift; sourceTree = "<group>"; };
+		003D2D6B2C5EC4130072A981 /* UserRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRes.swift; sourceTree = "<group>"; };
+		003D2D6D2C5EC4DF0072A981 /* LogoutRes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutRes.swift; sourceTree = "<group>"; };
+		005153122C5118F80049FC32 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		005153142C5119AA0049FC32 /* MailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailViewController.swift; sourceTree = "<group>"; };
+		005153162C511A350049FC32 /* SalaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryViewController.swift; sourceTree = "<group>"; };
+		005153182C511A590049FC32 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		0051531A2C511B7E0049FC32 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		008AE2AA2C4ED95A001CE64D /* Oto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008AE2AD2C4ED95A001CE64D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		008AE2AF2C4ED95A001CE64D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		008AE2B12C4ED95A001CE64D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		008AE2B12C4ED95A001CE64D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		008AE2B42C4ED95A001CE64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		008AE2B62C4ED95B001CE64D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		008AE2B92C4ED95B001CE64D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		008AE2BB2C4ED95B001CE64D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00918F322C55F3EF00A70E34 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		00918F332C55F3EF00A70E34 /* ProfileTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileTableViewCell.xib; sourceTree = "<group>"; };
+		00918F3B2C55F50B00A70E34 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		00918F3C2C55F50B00A70E34 /* SettingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingTableViewCell.xib; sourceTree = "<group>"; };
+		00918F3F2C55F52900A70E34 /* LogoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutTableViewCell.swift; sourceTree = "<group>"; };
+		00918F402C55F52900A70E34 /* LogoutTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LogoutTableViewCell.xib; sourceTree = "<group>"; };
+		00B8B6FD2C55754500167825 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		00CDF4FF2C5FB27F000937B8 /* VCHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCHelper.swift; sourceTree = "<group>"; };
+		D32DBB72FF742E3BDA9210C0 /* Pods-Oto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oto.release.xcconfig"; path = "Target Support Files/Pods-Oto/Pods-Oto.release.xcconfig"; sourceTree = "<group>"; };
+		E3862731A89ECC14A63AEDDB /* Pods-Oto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oto.debug.xcconfig"; path = "Target Support Files/Pods-Oto/Pods-Oto.debug.xcconfig"; sourceTree = "<group>"; };
+		F94130269147A43C77C20194 /* Pods_Oto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +75,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE26ADB4070DAFCFE338AA97 /* Pods_Oto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		003D2D5F2C5EB9510072A981 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				003D2D602C5EBA440072A981 /* NetworkManager.swift */,
+				003D2D622C5EBA620072A981 /* APIService.swift */,
+				003D2D642C5EBABA0072A981 /* Constant.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		003D2D662C5EBEEC0072A981 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				003D2D672C5EC0620072A981 /* LoginRes.swift */,
+				003D2D692C5EC2DC0072A981 /* ErrorRes.swift */,
+				003D2D6B2C5EC4130072A981 /* UserRes.swift */,
+				003D2D6D2C5EC4DF0072A981 /* LogoutRes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		008AE2A12C4ED95A001CE64D = {
 			isa = PBXGroup;
 			children = (
 				008AE2AC2C4ED95A001CE64D /* Oto */,
 				008AE2AB2C4ED95A001CE64D /* Products */,
+				4D13448D469338D8DBE1B929 /* Pods */,
+				2D3D22362E6710E7B67226E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +124,95 @@
 		008AE2AC2C4ED95A001CE64D /* Oto */ = {
 			isa = PBXGroup;
 			children = (
-				008AE2AD2C4ED95A001CE64D /* AppDelegate.swift */,
-				008AE2AF2C4ED95A001CE64D /* SceneDelegate.swift */,
-				008AE2B12C4ED95A001CE64D /* ViewController.swift */,
-				008AE2B32C4ED95A001CE64D /* Main.storyboard */,
+				008AE2C22C4EDD6D001CE64D /* Controllers */,
+				00918F312C55F39E00A70E34 /* Views */,
+				003D2D662C5EBEEC0072A981 /* Model */,
+				003D2D5F2C5EB9510072A981 /* Services */,
+				00CDF4FE2C5FB252000937B8 /* Helpers */,
 				008AE2B62C4ED95B001CE64D /* Assets.xcassets */,
-				008AE2B82C4ED95B001CE64D /* LaunchScreen.storyboard */,
 				008AE2BB2C4ED95B001CE64D /* Info.plist */,
 			);
 			path = Oto;
+			sourceTree = "<group>";
+		};
+		008AE2C22C4EDD6D001CE64D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				008AE2AD2C4ED95A001CE64D /* AppDelegate.swift */,
+				008AE2AF2C4ED95A001CE64D /* SceneDelegate.swift */,
+				00918F382C55F4A300A70E34 /* Custom */,
+				00918F372C55F46200A70E34 /* Auth */,
+				005153122C5118F80049FC32 /* HomeViewController.swift */,
+				005153142C5119AA0049FC32 /* MailViewController.swift */,
+				005153162C511A350049FC32 /* SalaryViewController.swift */,
+				005153182C511A590049FC32 /* MyViewController.swift */,
+				00B8B6FD2C55754500167825 /* TabBarViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		00918F312C55F39E00A70E34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				00918F362C55F40000A70E34 /* CustomCell */,
+				008AE2B32C4ED95A001CE64D /* Main.storyboard */,
+				008AE2B82C4ED95B001CE64D /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		00918F362C55F40000A70E34 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				00918F332C55F3EF00A70E34 /* ProfileTableViewCell.xib */,
+				00918F3C2C55F50B00A70E34 /* SettingTableViewCell.xib */,
+				00918F402C55F52900A70E34 /* LogoutTableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		00918F372C55F46200A70E34 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				008AE2B12C4ED95A001CE64D /* LoginViewController.swift */,
+				0051531A2C511B7E0049FC32 /* ForgotPasswordViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		00918F382C55F4A300A70E34 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				00918F3F2C55F52900A70E34 /* LogoutTableViewCell.swift */,
+				00918F3B2C55F50B00A70E34 /* SettingTableViewCell.swift */,
+				00918F322C55F3EF00A70E34 /* ProfileTableViewCell.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		00CDF4FE2C5FB252000937B8 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				00CDF4FF2C5FB27F000937B8 /* VCHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2D3D22362E6710E7B67226E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F94130269147A43C77C20194 /* Pods_Oto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D13448D469338D8DBE1B929 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3862731A89ECC14A63AEDDB /* Pods-Oto.debug.xcconfig */,
+				D32DBB72FF742E3BDA9210C0 /* Pods-Oto.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 008AE2BE2C4ED95B001CE64D /* Build configuration list for PBXNativeTarget "Oto" */;
 			buildPhases = (
+				9D65DC8C24FB9F5E2467FDE4 /* [CP] Check Pods Manifest.lock */,
 				008AE2A62C4ED95A001CE64D /* Sources */,
 				008AE2A72C4ED95A001CE64D /* Frameworks */,
 				008AE2A82C4ED95A001CE64D /* Resources */,
+				C1686087E43F745373A71324 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +276,83 @@
 			buildActionMask = 2147483647;
 			files = (
 				008AE2B72C4ED95B001CE64D /* Assets.xcassets in Resources */,
+				00918F422C55F52900A70E34 /* LogoutTableViewCell.xib in Resources */,
+				00918F352C55F3EF00A70E34 /* ProfileTableViewCell.xib in Resources */,
 				008AE2BA2C4ED95B001CE64D /* Base in Resources */,
+				00918F3E2C55F50B00A70E34 /* SettingTableViewCell.xib in Resources */,
 				008AE2B52C4ED95A001CE64D /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9D65DC8C24FB9F5E2467FDE4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1686087E43F745373A71324 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oto/Pods-Oto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oto/Pods-Oto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Oto/Pods-Oto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		008AE2A62C4ED95A001CE64D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				008AE2B22C4ED95A001CE64D /* ViewController.swift in Sources */,
+				003D2D632C5EBA620072A981 /* APIService.swift in Sources */,
+				0051531B2C511B7E0049FC32 /* ForgotPasswordViewController.swift in Sources */,
+				00918F412C55F52900A70E34 /* LogoutTableViewCell.swift in Sources */,
+				00918F342C55F3EF00A70E34 /* ProfileTableViewCell.swift in Sources */,
+				005153132C5118F80049FC32 /* HomeViewController.swift in Sources */,
+				008AE2B22C4ED95A001CE64D /* LoginViewController.swift in Sources */,
+				00CDF5002C5FB27F000937B8 /* VCHelper.swift in Sources */,
 				008AE2AE2C4ED95A001CE64D /* AppDelegate.swift in Sources */,
+				003D2D6C2C5EC4130072A981 /* UserRes.swift in Sources */,
+				003D2D6A2C5EC2DC0072A981 /* ErrorRes.swift in Sources */,
+				00918F3D2C55F50B00A70E34 /* SettingTableViewCell.swift in Sources */,
+				005153172C511A350049FC32 /* SalaryViewController.swift in Sources */,
+				003D2D612C5EBA440072A981 /* NetworkManager.swift in Sources */,
 				008AE2B02C4ED95A001CE64D /* SceneDelegate.swift in Sources */,
+				003D2D6E2C5EC4DF0072A981 /* LogoutRes.swift in Sources */,
+				005153192C511A590049FC32 /* MyViewController.swift in Sources */,
+				00B8B6FE2C55754500167825 /* TabBarViewController.swift in Sources */,
+				003D2D652C5EBABA0072A981 /* Constant.swift in Sources */,
+				005153152C5119AA0049FC32 /* MailViewController.swift in Sources */,
+				003D2D682C5EC0620072A981 /* LoginRes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +415,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -218,7 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -266,7 +478,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -275,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -287,6 +499,7 @@
 		};
 		008AE2BF2C4ED95B001CE64D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3862731A89ECC14A63AEDDB /* Pods-Oto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -298,8 +511,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +529,7 @@
 		};
 		008AE2C02C4ED95B001CE64D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D32DBB72FF742E3BDA9210C0 /* Pods-Oto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -326,8 +541,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

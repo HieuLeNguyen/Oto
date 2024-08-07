@@ -17,6 +17,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        
+        // Chủ đề cho màn hình khởi tạo
+        Thread.sleep(forTimeInterval: 0.6)
+        
+        if let token = UserDefaults.standard.string(forKey: "token"), !token.isEmpty {
+            print("token: \(token)")
+            showMainInterface()
+        } else {
+            print("token: \(UserDefaults.standard.string(forKey: "token") ?? "")")
+            showLoginInterface()
+        }
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -46,7 +58,25 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
     }
-
-
+    
+    func showMainInterface() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        guard let tabBarVC = storyboard.instantiateViewController(withIdentifier: "TabBarViewController") as? TabBarViewController else {
+            return
+        }
+        let navController = UINavigationController(rootViewController: tabBarVC)
+        window?.rootViewController = navController
+        window?.makeKeyAndVisible()
+    }
+    
+    func showLoginInterface() {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        guard let loginVC = storyboard.instantiateViewController(withIdentifier: "LoginViewController") as? LoginViewController else {
+            return
+        }
+        window?.rootViewController = loginVC
+        window?.makeKeyAndVisible()
+    }
+    
 }
 
