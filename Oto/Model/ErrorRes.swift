@@ -8,11 +8,7 @@
 import Foundation
 
 // MARK: - ErrorRes
-<<<<<<< HEAD
-struct ErrorRes: Codable {
-=======
 struct ErrorRes: Codable, Error {
->>>>>>> 6cb3d12 (feature: auth with api (login, logout, user))
     let message: String
     let errors: Errors?
     

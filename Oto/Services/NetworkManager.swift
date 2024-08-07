@@ -6,8 +6,6 @@
 //
 
 import Foundation
-<<<<<<< HEAD
-=======
 import Alamofire
 
 
@@ -92,4 +90,3 @@ extension HTTPHeaders {
     }
     
 }
->>>>>>> 6cb3d12 (feature: auth with api (login, logout, user))

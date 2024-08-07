@@ -1,13 +1,3 @@
-<<<<<<< HEAD
-//
-//  LoginRes.swift
-//  Oto
-//
-//  Created by Nguyễn Văn Hiếu on 4/8/24.
-//
-
-import Foundation
-=======
 // This file was generated from JSON Schema using quicktype, do not modify it directly.
 // To parse the JSON, add this file to your project and do:
 //
@@ -30,4 +20,4 @@ struct DataClass: Codable {
         case tokenType = "token_type"
     }
 }
->>>>>>> 6cb3d12 (feature: auth with api (login, logout, user))
+

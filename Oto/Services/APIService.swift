@@ -6,8 +6,6 @@
 //
 
 import Foundation
-<<<<<<< HEAD
-=======
 import SwiftyJSON
 
 class APIService {
@@ -60,4 +58,3 @@ class APIService {
 //        request(endpoint: "/forgot_password", method: .post, params: params, callback: callback)
 //    }
 }
->>>>>>> 6cb3d12 (feature: auth with api (login, logout, user))
